@@ -22,6 +22,8 @@ cd VulnerableJavaWebApplication
 # creates the docker image
 docker build -t vulnerable-java-application:0.1 .
 
+# just a test
+
 # creates/starts the container
 docker run --name vulnerable-java-application -p 9000:9000 -d vulnerable-java-application:0.1
 ```
